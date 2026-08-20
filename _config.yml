@@ -1,0 +1,31 @@
+title: Software Engineering for Scientists
+short_title: SWE4S
+description: >-
+  A hands-on course teaching software engineering best practices —
+  version control, testing, packaging, and collaborative development —
+  to scientists and researchers.
+semester: "Fall 2026"
+url: "https://swe4s.github.io"
+baseurl: ""
+
+github_org_url: "https://github.com/swe4s"
+
+nav:
+  - title: Syllabus
+    url: /
+  - title: Schedule
+    url: /schedule/
+  - title: Assignments
+    url: /assignments/
+  - title: Staff
+    url: /staff/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
