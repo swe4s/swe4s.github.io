@@ -41,7 +41,13 @@ for details.
           <div class="material-row"><span class="tag type-{{ m.type }}">{{ m.type }}</span></div>
         {% endfor %}
       </td>
-      <td>{{ week.hw }}</td>
+      <td>
+        {% if week.hw_file %}
+          <a href="{{ '/assets/files/' | append: week.hw_file | uri_escape | relative_url }}">{{ week.hw }}</a>
+        {% else %}
+          {{ week.hw }}
+        {% endif %}
+      </td>
       <td>{{ week.hw_out }}</td>
       <td>{{ week.hw_due }}</td>
     </tr>

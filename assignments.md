@@ -28,7 +28,13 @@ considered, and the date of that release is the submit time.
   <tbody>
     {% for a in site.data.assignments %}
     <tr>
-      <td>{{ a.title }}</td>
+      <td>
+        {% if a.file %}
+          <a href="{{ '/assets/files/' | append: a.file | uri_escape | relative_url }}">{{ a.title }}</a>
+        {% else %}
+          {{ a.title }}
+        {% endif %}
+      </td>
       <td><span class="tag">{{ a.out }}</span></td>
       <td><span class="tag due">{{ a.due }}</span></td>
     </tr>

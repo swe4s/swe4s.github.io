@@ -24,6 +24,7 @@
   dates: "Aug 25, 27"
   topic: "GitHub, Python"
   hw: "HW1"
+  hw_file: "hw/Assignment 1_GitandPython.pdf"
   hw_out: "Aug 27"
   hw_due: "Sep 3"
   materials:
@@ -52,6 +53,7 @@
   dates: "Sep 1, 3"
   topic: "Best practices"
   hw: "HW2"
+  hw_file: "hw/Assignment2_ BestPractices.pdf"
   hw_out: "Sep 3"
   hw_due: "Sep 17"
   materials:
