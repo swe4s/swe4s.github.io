@@ -29,7 +29,11 @@ for details.
       <td>{{ week.topic }}</td>
       <td>
         {% for m in week.materials %}
-          <div class="material-row"><a href="{{ '/assets/files/' | append: m.file | uri_escape | relative_url }}">{{ m.title }}</a></div>
+          {% if m.url %}
+            <div class="material-row"><a href="{{ m.url }}" target="_blank" rel="noopener">{{ m.title }}</a></div>
+          {% else %}
+            <div class="material-row"><a href="{{ '/assets/files/' | append: m.file | uri_escape | relative_url }}">{{ m.title }}</a></div>
+          {% endif %}
         {% endfor %}
       </td>
       <td>
