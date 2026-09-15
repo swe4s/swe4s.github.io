@@ -78,6 +78,13 @@
   hw: "HW3"
   hw_out: "Sep 17"
   hw_due: "Sep 24"
+  materials:
+    - title: "Unit Testing"
+      file: "testing/Unit Testing.pdf"
+      type: "reference"
+    - title: "Functional Testing"
+      file: "testing/Functional Testing.pdf"
+      type: "reference"
 - week: 6
   dates: "Sep 22, 24"
   topic: "Continuous integration"
