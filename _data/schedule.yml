@@ -90,8 +90,13 @@
   dates: "Sep 22, 24"
   topic: "Continuous integration"
   hw: "HW4"
+  hw_file: "hw/Assignment4_ContinuousIntegration.pdf"
   hw_out: "Sep 24"
   hw_due: "Oct 1"
+  materials:
+    - title: "Continuous Integration with GitHub Actions"
+      file: "testing/Continuous Integration with GitHub Actions.pdf"
+      type: "reference"
 - week: 7
   dates: "Sep 29, Oct 1"
   topic: "Test driven development"

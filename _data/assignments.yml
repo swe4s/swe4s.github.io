@@ -11,6 +11,7 @@
   out: "Sep 17"
   due: "Sep 24"
 - title: "HW4 – Continuous integration"
+  file: "hw/Assignment4_ContinuousIntegration.pdf"
   out: "Sep 24"
   due: "Oct 1"
 - title: "HW5 – Test driven development"
