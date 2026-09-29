@@ -103,6 +103,10 @@
   hw: "HW5"
   hw_out: "Oct 1"
   hw_due: "Oct 8"
+  materials:
+    - title: "Test-Driven Development"
+      file: "testing/Test-Driven Development.pdf"
+      type: "reference"
 - week: 8
   dates: "Oct 6"
   topic: "Code review"
