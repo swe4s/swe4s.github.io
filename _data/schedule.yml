@@ -147,6 +147,10 @@
   hw: "HW8"
   hw_out: "Oct 29"
   hw_due: "Nov 5"
+  materials:
+    - title: "Pipelines and Workflows"
+      file: "workflow/Piplines and workflows.pdf"
+      type: "reference"
 - week: 12
   dates: "Nov 3, 5"
   topic: "Hash tables"
